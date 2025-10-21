@@ -7,7 +7,7 @@ The work was conducted on a **Raspberry Pi 5** integrated with an **RFM95W LoRa 
 
 ---
 
-## 📘 **Overview**
+## **Overview**
 
 This study explores how **data compression** can reduce the **payload size** and **airtime** of LoRa transmissions, leading to lower energy consumption and better bandwidth usage.
 The experiments were divided into three major stages:
@@ -22,7 +22,7 @@ The workflow below summarizes the process:
 
 ---
 
-## ⚙️ **Algorithms Implemented**
+## **Algorithms Implemented**
 
 ### **1. Huffman Coding**
 
@@ -124,7 +124,7 @@ It supports multicore processing and in-place compression/decompression, achievi
 
 ---
 
-## 🔬 **Hardware and Measurement Setup**
+##  **Hardware and Measurement Setup**
 
 The experiments were performed on the following hardware setup:
 
@@ -146,7 +146,7 @@ All energy data were collected in real time and processed using Python scripts o
 
 ---
 
-## 📡 **LoRa Transmission Scripts**
+##  **LoRa Transmission Scripts**
 
 The folder `transmissão_LoRa` contains the Python scripts for configuring and managing **LoRa transmissions** using the **RFM95W** module.
 
@@ -160,7 +160,7 @@ The folder `transmissão_LoRa` contains the Python scripts for configuring and m
 
 ---
 
-## 📊 **Execution Scenarios**
+##  **Execution Scenarios**
 
 1. **Scenario 01 – Compression Rate & Time**
    Measures the average compression ratio, processing time, and number of messages that fit in a single LoRa packet (222 bytes for SF7 and 51 bytes for SF12).
