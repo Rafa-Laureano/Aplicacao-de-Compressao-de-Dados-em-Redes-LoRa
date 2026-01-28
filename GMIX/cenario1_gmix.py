@@ -87,7 +87,7 @@ max_lines_sf7 = 0
 with open(log_file_path, 'w') as log_file:
     log_file.write("Num_Lines,Avg_Original_Size,Avg_Compressed_Size,Avg_Compression_Rate(%),Avg_Compression_Time,Max_SF12_Lines,Max_SF7_Lines\n")
 
-for i in range(1, 200):
+for i in range(1, 170):
     avg_size_before, avg_size_after, avg_compression_rate, avg_compression_time = perform_multiple_compressions(gmix_path, lines, i)
 
     if avg_size_after <= sf12_packet_size:
